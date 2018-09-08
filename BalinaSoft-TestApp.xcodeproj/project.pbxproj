@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		395A4FAC8C7DA9D431A8E388 /* Pods_BalinaSoft_TestApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 163F24C968D801AFAB6C26B9 /* Pods_BalinaSoft_TestApp.framework */; };
 		F2097AC42140818C00C93E4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2097AC32140818C00C93E4F /* AppDelegate.swift */; };
-		F2097AC62140818C00C93E4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2097AC52140818C00C93E4F /* ViewController.swift */; };
-		F2097AC92140818C00C93E4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2097AC72140818C00C93E4F /* Main.storyboard */; };
+		F2097AC92140818C00C93E4F /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2097AC72140818C00C93E4F /* Login.storyboard */; };
 		F2097ACC2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2097ACA2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld */; };
 		F2097ACE2140818D00C93E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2097ACD2140818D00C93E4F /* Assets.xcassets */; };
 		F2097AD12140818D00C93E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2097ACF2140818D00C93E4F /* LaunchScreen.storyboard */; };
+		F263701E2144790F009CE1F2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263701D2144790F009CE1F2 /* LoginVC.swift */; };
+		F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263701F2144791F009CE1F2 /* RegisterVC.swift */; };
+		F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702121447B84009CE1F2 /* NSObject+ext.swift */; };
+		F263702421447B8F009CE1F2 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702321447B8F009CE1F2 /* UIViewController+ext.swift */; };
+		F2E3451A2143C08300AA16BA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E345192143C08300AA16BA /* ParentViewController.swift */; };
+		F2E345232143C15100AA16BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E345222143C15100AA16BA /* Default-568h@2x.png */; };
+		F2E3452521445F9B00AA16BA /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3452421445F9B00AA16BA /* UIView + ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B5BDCA1D79D1EBC5856E63 /* Pods-BalinaSoft-TestApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BalinaSoft-TestApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp.debug.xcconfig"; sourceTree = "<group>"; };
+		162EF8D4FB6B6B72FC38FD52 /* Pods-BalinaSoft-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BalinaSoft-TestApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp.release.xcconfig"; sourceTree = "<group>"; };
+		163F24C968D801AFAB6C26B9 /* Pods_BalinaSoft_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BalinaSoft_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2097AC02140818B00C93E4F /* BalinaSoft-TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BalinaSoft-TestApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2097AC32140818C00C93E4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2097AC52140818C00C93E4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F2097AC82140818C00C93E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F2097AC82140818C00C93E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Login.storyboard; sourceTree = "<group>"; };
 		F2097ACB2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BalinaSoft_TestApp.xcdatamodel; sourceTree = "<group>"; };
 		F2097ACD2140818D00C93E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2097AD02140818D00C93E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2097AD22140818D00C93E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F263701D2144790F009CE1F2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		F263701F2144791F009CE1F2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		F263702121447B84009CE1F2 /* NSObject+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ext.swift"; sourceTree = "<group>"; };
+		F263702321447B8F009CE1F2 /* UIViewController+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		F2E345192143C08300AA16BA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		F2E345222143C15100AA16BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F2E3452421445F9B00AA16BA /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				395A4FAC8C7DA9D431A8E388 /* Pods_BalinaSoft_TestApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0DDE02FD3C65447E6672F27 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04B5BDCA1D79D1EBC5856E63 /* Pods-BalinaSoft-TestApp.debug.xcconfig */,
+				162EF8D4FB6B6B72FC38FD52 /* Pods-BalinaSoft-TestApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C2397804BF4041CA5FE7C235 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				163F24C968D801AFAB6C26B9 /* Pods_BalinaSoft_TestApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2097AB72140818B00C93E4F = {
 			isa = PBXGroup;
 			children = (
+				F2E345222143C15100AA16BA /* Default-568h@2x.png */,
 				F2097AC22140818B00C93E4F /* BalinaSoft-TestApp */,
 				F2097AC12140818B00C93E4F /* Products */,
+				B0DDE02FD3C65447E6672F27 /* Pods */,
+				C2397804BF4041CA5FE7C235 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,14 +94,43 @@
 			isa = PBXGroup;
 			children = (
 				F2097AC32140818C00C93E4F /* AppDelegate.swift */,
-				F2097AC52140818C00C93E4F /* ViewController.swift */,
-				F2097AC72140818C00C93E4F /* Main.storyboard */,
-				F2097ACD2140818D00C93E4F /* Assets.xcassets */,
-				F2097ACF2140818D00C93E4F /* LaunchScreen.storyboard */,
-				F2097AD22140818D00C93E4F /* Info.plist */,
+				F2097AC72140818C00C93E4F /* Login.storyboard */,
+				F2E345192143C08300AA16BA /* ParentViewController.swift */,
+				F263701D2144790F009CE1F2 /* LoginVC.swift */,
+				F263701F2144791F009CE1F2 /* RegisterVC.swift */,
+				F2E345182143BFA200AA16BA /* Resources */,
+				F2E345172143BF6800AA16BA /* Sugar */,
+				F2E345162143BF3600AA16BA /* Supporting files */,
 				F2097ACA2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld */,
 			);
 			path = "BalinaSoft-TestApp";
+			sourceTree = "<group>";
+		};
+		F2E345162143BF3600AA16BA /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				F2097ACD2140818D00C93E4F /* Assets.xcassets */,
+				F2097ACF2140818D00C93E4F /* LaunchScreen.storyboard */,
+				F2097AD22140818D00C93E4F /* Info.plist */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		F2E345172143BF6800AA16BA /* Sugar */ = {
+			isa = PBXGroup;
+			children = (
+				F263702321447B8F009CE1F2 /* UIViewController+ext.swift */,
+				F263702121447B84009CE1F2 /* NSObject+ext.swift */,
+				F2E3452421445F9B00AA16BA /* UIView + ext.swift */,
+			);
+			path = Sugar;
+			sourceTree = "<group>";
+		};
+		F2E345182143BFA200AA16BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2097AD52140818D00C93E4F /* Build configuration list for PBXNativeTarget "BalinaSoft-TestApp" */;
 			buildPhases = (
+				0DC68F2A2A24B4BA538B42BE /* [CP] Check Pods Manifest.lock */,
 				F2097ABC2140818B00C93E4F /* Sources */,
 				F2097ABD2140818B00C93E4F /* Frameworks */,
 				F2097ABE2140818B00C93E4F /* Resources */,
+				F179F1C45503DA060537C690 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,33 +194,78 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2097AD12140818D00C93E4F /* LaunchScreen.storyboard in Resources */,
+				F2E345232143C15100AA16BA /* Default-568h@2x.png in Resources */,
 				F2097ACE2140818D00C93E4F /* Assets.xcassets in Resources */,
-				F2097AC92140818C00C93E4F /* Main.storyboard in Resources */,
+				F2097AC92140818C00C93E4F /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DC68F2A2A24B4BA538B42BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BalinaSoft-TestApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F179F1C45503DA060537C690 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F2097ABC2140818B00C93E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2097AC62140818C00C93E4F /* ViewController.swift in Sources */,
+				F2E3452521445F9B00AA16BA /* UIView + ext.swift in Sources */,
 				F2097ACC2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld in Sources */,
 				F2097AC42140818C00C93E4F /* AppDelegate.swift in Sources */,
+				F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */,
+				F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */,
+				F2E3451A2143C08300AA16BA /* ParentViewController.swift in Sources */,
+				F263702421447B8F009CE1F2 /* UIViewController+ext.swift in Sources */,
+				F263701E2144790F009CE1F2 /* LoginVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F2097AC72140818C00C93E4F /* Main.storyboard */ = {
+		F2097AC72140818C00C93E4F /* Login.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				F2097AC82140818C00C93E4F /* Base */,
 			);
-			name = Main.storyboard;
+			name = Login.storyboard;
 			sourceTree = "<group>";
 		};
 		F2097ACF2140818D00C93E4F /* LaunchScreen.storyboard */ = {
@@ -282,11 +395,12 @@
 		};
 		F2097AD62140818D00C93E4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04B5BDCA1D79D1EBC5856E63 /* Pods-BalinaSoft-TestApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VCKQL6T87N;
-				INFOPLIST_FILE = "BalinaSoft-TestApp/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BalinaSoft-TestApp/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,11 +415,12 @@
 		};
 		F2097AD72140818D00C93E4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 162EF8D4FB6B6B72FC38FD52 /* Pods-BalinaSoft-TestApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VCKQL6T87N;
-				INFOPLIST_FILE = "BalinaSoft-TestApp/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/BalinaSoft-TestApp/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

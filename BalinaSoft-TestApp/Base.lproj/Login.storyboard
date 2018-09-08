@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Parent View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ParentViewController" customModule="BalinaSoft_TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6H8-C5-sQl">
+                                <rect key="frame" x="0.0" y="90" width="375" height="577"/>
+                            </scrollView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="SRq-0G-k1a" customClass="ButtonBarView" customModule="XLPagerTabStrip">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="uCw-YS-LuB"/>
+                                </constraints>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="nsN-t1-9yq">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6H8-C5-sQl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3QI-vi-SsU"/>
+                            <constraint firstItem="6H8-C5-sQl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Os-16-KSc"/>
+                            <constraint firstItem="SRq-0G-k1a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9dp-K0-qp3"/>
+                            <constraint firstItem="6H8-C5-sQl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="90" id="Fm6-gR-Qo2"/>
+                            <constraint firstItem="6H8-C5-sQl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kn5-WZ-afn"/>
+                            <constraint firstItem="SRq-0G-k1a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="URD-6x-qUI"/>
+                            <constraint firstItem="SRq-0G-k1a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Z8S-xP-vus"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="XJw-gY-v9L"/>
+                    <connections>
+                        <outlet property="buttonBarView" destination="SRq-0G-k1a" id="222-ki-2hH"/>
+                        <outlet property="containerView" destination="6H8-C5-sQl" id="6Xr-cO-u3a"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2935.1999999999998" y="118.29085457271366"/>
+        </scene>
+        <!--RegisterVC-->
+        <scene sceneID="Nhn-u5-OjI">
+            <objects>
+                <viewController storyboardIdentifier="RegisterVC" id="WrB-iy-YHg" customClass="RegisterVC" customModule="BalinaSoft_TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="v0j-5k-r9O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHe-W1-KtE">
+                                <rect key="frame" x="92" y="262" width="191" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.442075051" blue="0.44664642319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="KbS-kl-Gwc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s9g-1U-hTw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3673" y="493"/>
+        </scene>
+        <!--LoginVC-->
+        <scene sceneID="VPq-tD-e2v">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" id="bCa-9v-CHw" customClass="LoginVC" customModule="BalinaSoft_TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Idi-H5-Sr1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Txi-r4-Xrk">
+                                <rect key="frame" x="92" y="262" width="191" height="142"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.26408818220000002" green="1" blue="0.24601668130000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="quI-n6-Y8m"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8w5-yN-n1f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3672.8000000000002" y="-197.45127436281859"/>
+        </scene>
+    </scenes>
+</document>
