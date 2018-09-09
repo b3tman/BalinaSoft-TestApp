@@ -7,5 +7,6 @@ target 'BalinaSoft-TestApp' do
 
   # Pods for BalinaSoft-TestApp
   pod 'XLPagerTabStrip', '~> 8.0'
+  pod 'FormToolbar', '~> 1.0'
 
 end

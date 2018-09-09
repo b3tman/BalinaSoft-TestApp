@@ -17,9 +17,9 @@
 		F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263701F2144791F009CE1F2 /* RegisterVC.swift */; };
 		F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702121447B84009CE1F2 /* NSObject+ext.swift */; };
 		F263702421447B8F009CE1F2 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702321447B8F009CE1F2 /* UIViewController+ext.swift */; };
+		F28501B32144D477000F201A /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28501B22144D477000F201A /* UIView+ext.swift */; };
 		F2E3451A2143C08300AA16BA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E345192143C08300AA16BA /* ParentViewController.swift */; };
 		F2E345232143C15100AA16BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E345222143C15100AA16BA /* Default-568h@2x.png */; };
-		F2E3452521445F9B00AA16BA /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E3452421445F9B00AA16BA /* UIView + ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		F263701F2144791F009CE1F2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		F263702121447B84009CE1F2 /* NSObject+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ext.swift"; sourceTree = "<group>"; };
 		F263702321447B8F009CE1F2 /* UIViewController+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		F28501B22144D477000F201A /* UIView+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
 		F2E345192143C08300AA16BA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		F2E345222143C15100AA16BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		F2E3452421445F9B00AA16BA /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +121,7 @@
 			children = (
 				F263702321447B8F009CE1F2 /* UIViewController+ext.swift */,
 				F263702121447B84009CE1F2 /* NSObject+ext.swift */,
-				F2E3452421445F9B00AA16BA /* UIView + ext.swift */,
+				F28501B22144D477000F201A /* UIView+ext.swift */,
 			);
 			path = Sugar;
 			sourceTree = "<group>";
@@ -228,10 +228,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FormToolbar/FormToolbar.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormToolbar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -246,7 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2E3452521445F9B00AA16BA /* UIView + ext.swift in Sources */,
+				F28501B32144D477000F201A /* UIView+ext.swift in Sources */,
 				F2097ACC2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld in Sources */,
 				F2097AC42140818C00C93E4F /* AppDelegate.swift in Sources */,
 				F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */,
@@ -402,10 +404,7 @@
 				DEVELOPMENT_TEAM = VCKQL6T87N;
 				INFOPLIST_FILE = "$(SRCROOT)/BalinaSoft-TestApp/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "b3tman.BalinaSoft-TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -422,10 +421,7 @@
 				DEVELOPMENT_TEAM = VCKQL6T87N;
 				INFOPLIST_FILE = "$(SRCROOT)/BalinaSoft-TestApp/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "b3tman.BalinaSoft-TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
