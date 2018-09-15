@@ -78,7 +78,16 @@ class LoginVC: UIViewController {
     
     //MARK: - Actions
     @IBAction func loginAction(_ sender: UIButton) {
-        
+        guard let login = loginTextField?.text, let password = passwordTextField?.text else { return }
+        SERVER_MANAGER.executeRequest(for: loginUser, with: login, and: password) { [weak self] result, isAuthorized in
+            if isAuthorized {
+                UserDefaults.standard.set(true, forKey: authorizedKey)
+                let rootVC = RootVC.loadFromStoryboard(with: RootVC.className)
+                self?.present(rootVC, animated: true)
+            } else {
+                self?.presentAlertController("ERROR", message: "User with this name don't exist")
+            }
+        }
     }
     
 

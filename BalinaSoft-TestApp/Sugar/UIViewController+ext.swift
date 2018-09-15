@@ -1,9 +1,9 @@
 //
 //  UIViewController+ext.swift
-//  NewDatingApp
+//  BalinaSoft-TestApp
 //
-//  Created by Valik Kuchinsky on 12/11/17.
-//  Copyright © 2017 Dating App. All rights reserved.
+//  Created by Максим Бриштен on 08.09.2018.
+//  Copyright © 2018 Максим Бриштен. All rights reserved.
 //
 
 import Foundation

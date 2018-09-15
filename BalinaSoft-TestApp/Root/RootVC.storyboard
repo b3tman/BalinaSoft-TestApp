@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="lz4-yY-Ea0">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--RootVC-->
+        <scene sceneID="SE9-jG-k6n">
+            <objects>
+                <viewController storyboardIdentifier="RootVC" id="lz4-yY-Ea0" customClass="RootVC" customModule="BalinaSoft_TestApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jx9-kr-rXR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcC-xz-x4g">
+                                <rect key="frame" x="161" y="318" width="52" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.442075051" blue="0.44664642319999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Log out"/>
+                                <connections>
+                                    <action selector="logOutAction:" destination="lz4-yY-Ea0" eventType="touchUpInside" id="oZj-Tu-fSY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fG6-8x-70b">
+                                <rect key="frame" x="147" y="401" width="75" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Print token"/>
+                                <connections>
+                                    <action selector="printToken:" destination="lz4-yY-Ea0" eventType="touchUpInside" id="sZc-re-axf"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.2652053754" green="1" blue="0.2658187393" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="xcC-xz-x4g" firstAttribute="centerY" secondItem="jx9-kr-rXR" secondAttribute="centerY" id="3ad-Hb-Pf2"/>
+                            <constraint firstItem="xcC-xz-x4g" firstAttribute="centerX" secondItem="jx9-kr-rXR" secondAttribute="centerX" id="jWy-pe-zF4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="992-9j-8Ju"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="d3T-sf-yxn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6gw-sh-GDV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="968.79999999999995" y="89.505247376311857"/>
+        </scene>
+    </scenes>
+</document>

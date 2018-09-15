@@ -17,9 +17,14 @@
 		F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263701F2144791F009CE1F2 /* RegisterVC.swift */; };
 		F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702121447B84009CE1F2 /* NSObject+ext.swift */; };
 		F263702421447B8F009CE1F2 /* UIViewController+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702321447B8F009CE1F2 /* UIViewController+ext.swift */; };
+		F26AF3FB21458964000F84D8 /* RootVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26AF3FA21458964000F84D8 /* RootVC.storyboard */; };
+		F26AF3FD214589A6000F84D8 /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AF3FC214589A6000F84D8 /* RootVC.swift */; };
+		F26AF4012145BF63000F84D8 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AF4002145BF63000F84D8 /* AuthManager.swift */; };
+		F26AF4032147A3D4000F84D8 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F26AF4022147A3D4000F84D8 /* ServerManager.swift */; };
 		F28501B32144D477000F201A /* UIView+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28501B22144D477000F201A /* UIView+ext.swift */; };
 		F2E3451A2143C08300AA16BA /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2E345192143C08300AA16BA /* ParentViewController.swift */; };
 		F2E345232143C15100AA16BA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F2E345222143C15100AA16BA /* Default-568h@2x.png */; };
+		F2FE3232214D5E4C00D0A383 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FE3231214D5E4C00D0A383 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +42,14 @@
 		F263701F2144791F009CE1F2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		F263702121447B84009CE1F2 /* NSObject+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ext.swift"; sourceTree = "<group>"; };
 		F263702321447B8F009CE1F2 /* UIViewController+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+ext.swift"; sourceTree = "<group>"; };
+		F26AF3FA21458964000F84D8 /* RootVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RootVC.storyboard; sourceTree = "<group>"; };
+		F26AF3FC214589A6000F84D8 /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
+		F26AF4002145BF63000F84D8 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		F26AF4022147A3D4000F84D8 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
 		F28501B22144D477000F201A /* UIView+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ext.swift"; sourceTree = "<group>"; };
 		F2E345192143C08300AA16BA /* ParentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
 		F2E345222143C15100AA16BA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F2FE3231214D5E4C00D0A383 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +84,6 @@
 		F2097AB72140818B00C93E4F = {
 			isa = PBXGroup;
 			children = (
-				F2E345222143C15100AA16BA /* Default-568h@2x.png */,
 				F2097AC22140818B00C93E4F /* BalinaSoft-TestApp */,
 				F2097AC12140818B00C93E4F /* Products */,
 				B0DDE02FD3C65447E6672F27 /* Pods */,
@@ -94,10 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				F2097AC32140818C00C93E4F /* AppDelegate.swift */,
-				F2097AC72140818C00C93E4F /* Login.storyboard */,
-				F2E345192143C08300AA16BA /* ParentViewController.swift */,
-				F263701D2144790F009CE1F2 /* LoginVC.swift */,
-				F263701F2144791F009CE1F2 /* RegisterVC.swift */,
+				F26AF3FF2145B7D0000F84D8 /* Logic */,
+				F26AF3F9214587AF000F84D8 /* Login */,
+				F26AF3FE214589AA000F84D8 /* Root */,
 				F2E345182143BFA200AA16BA /* Resources */,
 				F2E345172143BF6800AA16BA /* Sugar */,
 				F2E345162143BF3600AA16BA /* Supporting files */,
@@ -106,10 +114,41 @@
 			path = "BalinaSoft-TestApp";
 			sourceTree = "<group>";
 		};
+		F26AF3F9214587AF000F84D8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F2097AC72140818C00C93E4F /* Login.storyboard */,
+				F2E345192143C08300AA16BA /* ParentViewController.swift */,
+				F263701D2144790F009CE1F2 /* LoginVC.swift */,
+				F263701F2144791F009CE1F2 /* RegisterVC.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		F26AF3FE214589AA000F84D8 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				F26AF3FA21458964000F84D8 /* RootVC.storyboard */,
+				F26AF3FC214589A6000F84D8 /* RootVC.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		F26AF3FF2145B7D0000F84D8 /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				F26AF4002145BF63000F84D8 /* AuthManager.swift */,
+				F26AF4022147A3D4000F84D8 /* ServerManager.swift */,
+				F2FE3231214D5E4C00D0A383 /* Config.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
 		F2E345162143BF3600AA16BA /* Supporting files */ = {
 			isa = PBXGroup;
 			children = (
 				F2097ACD2140818D00C93E4F /* Assets.xcassets */,
+				F2E345222143C15100AA16BA /* Default-568h@2x.png */,
 				F2097ACF2140818D00C93E4F /* LaunchScreen.storyboard */,
 				F2097AD22140818D00C93E4F /* Info.plist */,
 			);
@@ -194,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2097AD12140818D00C93E4F /* LaunchScreen.storyboard in Resources */,
+				F26AF3FB21458964000F84D8 /* RootVC.storyboard in Resources */,
 				F2E345232143C15100AA16BA /* Default-568h@2x.png in Resources */,
 				F2097ACE2140818D00C93E4F /* Assets.xcassets in Resources */,
 				F2097AC92140818C00C93E4F /* Login.storyboard in Resources */,
@@ -228,12 +268,16 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FormToolbar/FormToolbar.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormToolbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,9 +297,13 @@
 				F2097AC42140818C00C93E4F /* AppDelegate.swift in Sources */,
 				F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */,
 				F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */,
+				F2FE3232214D5E4C00D0A383 /* Config.swift in Sources */,
 				F2E3451A2143C08300AA16BA /* ParentViewController.swift in Sources */,
+				F26AF3FD214589A6000F84D8 /* RootVC.swift in Sources */,
 				F263702421447B8F009CE1F2 /* UIViewController+ext.swift in Sources */,
 				F263701E2144790F009CE1F2 /* LoginVC.swift in Sources */,
+				F26AF4012145BF63000F84D8 /* AuthManager.swift in Sources */,
+				F26AF4032147A3D4000F84D8 /* ServerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,7 +452,10 @@
 				DEVELOPMENT_TEAM = VCKQL6T87N;
 				INFOPLIST_FILE = "$(SRCROOT)/BalinaSoft-TestApp/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "b3tman.BalinaSoft-TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -421,7 +472,10 @@
 				DEVELOPMENT_TEAM = VCKQL6T87N;
 				INFOPLIST_FILE = "$(SRCROOT)/BalinaSoft-TestApp/Supporting files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "b3tman.BalinaSoft-TestApp";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

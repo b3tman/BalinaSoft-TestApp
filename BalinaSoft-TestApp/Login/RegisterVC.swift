@@ -15,9 +15,15 @@ class RegisterVC: UIViewController {
     //MARK: - Outlets
     @IBOutlet var scrollView: UIScrollView?
     @IBOutlet var signUpButton: UIButton?
-    @IBOutlet var registerTextField: UITextField?
+    @IBOutlet var loginTextField: UITextField?
     @IBOutlet var enterPasswordTextField: UITextField?
     @IBOutlet var confirmPasswordTextField: UITextField?
+    
+    @IBOutlet var errorLabel: UILabel? {
+        didSet {
+            errorLabel?.isHidden = true
+        }
+    }
     
     //MARK: - Properties
     var tapGestureRecognizer: UITapGestureRecognizer?
@@ -25,7 +31,7 @@ class RegisterVC: UIViewController {
         return FormToolbar(inputs: self.inputs)
     }()
     private var inputs: [FormInput] {
-        guard let register = registerTextField, let enterPassword = enterPasswordTextField, let confirmPassword = confirmPasswordTextField else { return [UITextField()] }
+        guard let register = loginTextField, let enterPassword = enterPasswordTextField, let confirmPassword = confirmPasswordTextField else { return [UITextField()] }
         return [register, enterPassword, confirmPassword]
     }
     private weak var activeInput: FormInput?
@@ -39,7 +45,7 @@ class RegisterVC: UIViewController {
     
     private func configure() {
         signUpButton?.addShadow(offset: CGSize(width: 0, height: 2), color: .black, radius: 3.0, opacity: 0.5)
-        registerTextField?.delegate = self
+        loginTextField?.delegate = self
         enterPasswordTextField?.delegate = self
         confirmPasswordTextField?.delegate = self
         toolbar.direction = .upDown
@@ -79,7 +85,18 @@ class RegisterVC: UIViewController {
     
     //MARK: - Actions
     @IBAction func signUpAction(_ sender: UIButton) {
-        
+        guard let login = loginTextField?.text, let password = confirmPasswordTextField?.text else { return }
+        SERVER_MANAGER.executeRequest(for: registerUser, with: login, and: password) { [weak self] result, isAuthorized in
+            if isAuthorized {
+                self?.errorLabel?.isHidden = true
+                UserDefaults.standard.set(true, forKey: authorizedKey)
+                let rootVC = RootVC.loadFromStoryboard(with: RootVC.className)
+                self?.present(rootVC, animated: true)
+            } else {
+                self?.errorLabel?.isHidden = false
+                self?.errorLabel?.text = result
+            }
+        }
     }
     
     

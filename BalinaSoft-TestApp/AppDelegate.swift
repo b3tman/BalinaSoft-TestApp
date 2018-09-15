@@ -16,7 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-            
+        
+        var initialViewController = UIStoryboard(name: "Login", bundle: nil).instantiateInitialViewController()
+        if UserDefaults.standard.bool(forKey: authorizedKey) {
+            initialViewController = UIStoryboard(name: "RootVC", bundle: nil).instantiateViewController(withIdentifier: "RootVC")
+        }
+        
+        window?.rootViewController = initialViewController
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

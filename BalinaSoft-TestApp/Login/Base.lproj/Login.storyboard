@@ -36,14 +36,14 @@
                                 <cells/>
                             </collectionView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.5450980392" green="0.76470588240000004" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="6H8-C5-sQl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3QI-vi-SsU"/>
-                            <constraint firstItem="6H8-C5-sQl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="5Os-16-KSc"/>
+                            <constraint firstItem="6H8-C5-sQl" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="5Os-16-KSc"/>
                             <constraint firstItem="SRq-0G-k1a" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9dp-K0-qp3"/>
-                            <constraint firstItem="6H8-C5-sQl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="90" id="Fm6-gR-Qo2"/>
+                            <constraint firstItem="6H8-C5-sQl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="Fm6-gR-Qo2"/>
                             <constraint firstItem="6H8-C5-sQl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Kn5-WZ-afn"/>
-                            <constraint firstItem="SRq-0G-k1a" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="URD-6x-qUI"/>
+                            <constraint firstItem="SRq-0G-k1a" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="-20" id="URD-6x-qUI"/>
                             <constraint firstItem="SRq-0G-k1a" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Z8S-xP-vus"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -74,10 +74,16 @@
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="PZZ-37-Ndm">
-                                        <rect key="frame" x="30" y="222" width="315" height="223"/>
+                                        <rect key="frame" x="30" y="201.5" width="315" height="265"/>
                                         <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Error" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x85-Lc-mxI">
+                                                <rect key="frame" x="0.0" y="0.0" width="315" height="12"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                                <color key="textColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="BDX-1P-aZi">
-                                                <rect key="frame" x="0.0" y="0.0" width="315" height="31"/>
+                                                <rect key="frame" x="0.0" y="42" width="315" height="31"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Register" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="McY-74-OJ7">
                                                         <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
@@ -98,7 +104,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="bnc-Ht-OKc">
-                                                <rect key="frame" x="0.0" y="61" width="315" height="31"/>
+                                                <rect key="frame" x="0.0" y="103" width="315" height="31"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="********" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bz0-1w-Ver">
                                                         <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
@@ -119,7 +125,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="rAB-Bk-m1e">
-                                                <rect key="frame" x="0.0" y="122" width="315" height="31"/>
+                                                <rect key="frame" x="0.0" y="164" width="315" height="31"/>
                                                 <subviews>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="********" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nS9-45-v6L">
                                                         <rect key="frame" x="0.0" y="0.0" width="315" height="30"/>
@@ -140,7 +146,7 @@
                                                 </subviews>
                                             </stackView>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9R2-vc-URD">
-                                                <rect key="frame" x="0.0" y="183" width="315" height="40"/>
+                                                <rect key="frame" x="0.0" y="225" width="315" height="40"/>
                                                 <color key="backgroundColor" red="0.5450980392" green="0.76470588240000004" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="f7W-Sr-nm7"/>
@@ -187,7 +193,8 @@
                     <connections>
                         <outlet property="confirmPasswordTextField" destination="nS9-45-v6L" id="rP4-WK-uV4"/>
                         <outlet property="enterPasswordTextField" destination="bz0-1w-Ver" id="GdC-Nu-rVo"/>
-                        <outlet property="registerTextField" destination="McY-74-OJ7" id="IPe-fn-UuZ"/>
+                        <outlet property="errorLabel" destination="x85-Lc-mxI" id="yTM-N2-OAp"/>
+                        <outlet property="loginTextField" destination="McY-74-OJ7" id="DXK-cQ-mhz"/>
                         <outlet property="scrollView" destination="jJU-nz-qpt" id="Sph-Kn-ugf"/>
                         <outlet property="signUpButton" destination="9R2-vc-URD" id="qex-pf-EWE"/>
                     </connections>
