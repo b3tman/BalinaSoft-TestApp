@@ -27,6 +27,7 @@ class ServerManager: NSObject {
             case .success(let data):
                 print(data)
                 if let data = JSON(data).dictionary?["data"] {
+                    AUTH_MANAGER.userName = data["login"].stringValue
                     AUTH_MANAGER.sessionToken = data["token"].stringValue
                     completion(nil, true)
                 } else if let error = JSON(data).dictionary?["valid"] {

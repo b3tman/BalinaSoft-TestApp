@@ -13,6 +13,10 @@
 		F2097ACC2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F2097ACA2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld */; };
 		F2097ACE2140818D00C93E4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2097ACD2140818D00C93E4F /* Assets.xcassets */; };
 		F2097AD12140818D00C93E4F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2097ACF2140818D00C93E4F /* LaunchScreen.storyboard */; };
+		F25F7B63214D8C4F009C11A8 /* PhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F7B62214D8C4F009C11A8 /* PhotosVC.swift */; };
+		F25F7B65214D8D64009C11A8 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F7B64214D8D64009C11A8 /* MapVC.swift */; };
+		F25F7B67214D8E15009C11A8 /* SliderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F7B66214D8E15009C11A8 /* SliderVC.swift */; };
+		F25F7B69214D953F009C11A8 /* SliderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F25F7B68214D953F009C11A8 /* SliderCell.swift */; };
 		F263701E2144790F009CE1F2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263701D2144790F009CE1F2 /* LoginVC.swift */; };
 		F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263701F2144791F009CE1F2 /* RegisterVC.swift */; };
 		F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F263702121447B84009CE1F2 /* NSObject+ext.swift */; };
@@ -38,6 +42,10 @@
 		F2097ACD2140818D00C93E4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2097AD02140818D00C93E4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2097AD22140818D00C93E4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F25F7B62214D8C4F009C11A8 /* PhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosVC.swift; sourceTree = "<group>"; };
+		F25F7B64214D8D64009C11A8 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		F25F7B66214D8E15009C11A8 /* SliderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderVC.swift; sourceTree = "<group>"; };
+		F25F7B68214D953F009C11A8 /* SliderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderCell.swift; sourceTree = "<group>"; };
 		F263701D2144790F009CE1F2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		F263701F2144791F009CE1F2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
 		F263702121447B84009CE1F2 /* NSObject+ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+ext.swift"; sourceTree = "<group>"; };
@@ -130,6 +138,10 @@
 			children = (
 				F26AF3FA21458964000F84D8 /* RootVC.storyboard */,
 				F26AF3FC214589A6000F84D8 /* RootVC.swift */,
+				F25F7B62214D8C4F009C11A8 /* PhotosVC.swift */,
+				F25F7B64214D8D64009C11A8 /* MapVC.swift */,
+				F25F7B66214D8E15009C11A8 /* SliderVC.swift */,
+				F25F7B68214D953F009C11A8 /* SliderCell.swift */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -270,6 +282,7 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-BalinaSoft-TestApp/Pods-BalinaSoft-TestApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/FormToolbar/FormToolbar.framework",
+				"${BUILT_PRODUCTS_DIR}/MMDrawController/MMDrawController.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
@@ -277,6 +290,7 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FormToolbar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MMDrawController.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
@@ -295,14 +309,18 @@
 				F28501B32144D477000F201A /* UIView+ext.swift in Sources */,
 				F2097ACC2140818C00C93E4F /* BalinaSoft_TestApp.xcdatamodeld in Sources */,
 				F2097AC42140818C00C93E4F /* AppDelegate.swift in Sources */,
+				F25F7B67214D8E15009C11A8 /* SliderVC.swift in Sources */,
 				F26370202144791F009CE1F2 /* RegisterVC.swift in Sources */,
 				F263702221447B84009CE1F2 /* NSObject+ext.swift in Sources */,
 				F2FE3232214D5E4C00D0A383 /* Config.swift in Sources */,
 				F2E3451A2143C08300AA16BA /* ParentViewController.swift in Sources */,
 				F26AF3FD214589A6000F84D8 /* RootVC.swift in Sources */,
 				F263702421447B8F009CE1F2 /* UIViewController+ext.swift in Sources */,
+				F25F7B63214D8C4F009C11A8 /* PhotosVC.swift in Sources */,
 				F263701E2144790F009CE1F2 /* LoginVC.swift in Sources */,
+				F25F7B65214D8D64009C11A8 /* MapVC.swift in Sources */,
 				F26AF4012145BF63000F84D8 /* AuthManager.swift in Sources */,
+				F25F7B69214D953F009C11A8 /* SliderCell.swift in Sources */,
 				F26AF4032147A3D4000F84D8 /* ServerManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,6 +14,7 @@ class AuthManager: NSObject {
     
     static let shared: AuthManager = AuthManager()
     
+    var userName: String?
     var sessionToken: String? {
         get {
             return UserDefaults.standard.value(forKey: "sessionToken") as? String

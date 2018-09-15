@@ -10,5 +10,5 @@ import Foundation
 
 let serverURL = "http://junior.balinasoft.com/api/account/"
 let authorizedKey = "authorized"
-let loginUser = "signup"
-let registerUser = "signin"
+let loginUser = "signin"
+let registerUser = "signup"
