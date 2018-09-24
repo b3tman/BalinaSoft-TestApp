@@ -51,7 +51,7 @@ extension UIColor {
 
 extension UIButton {
     
-    func setBackgroundColor(_ color: UIColor, for state: UIControlState) {
+    func setBackgroundColor(_ color: UIColor, for state: UIControl.State) {
         
         UIGraphicsBeginImageContext(CGSize(width: 1, height: 1))
         UIGraphicsGetCurrentContext()!.setFillColor(color.cgColor)

@@ -23,7 +23,7 @@ class SliderVC: UIViewController {
         super.viewDidLoad()
         userNameLabel?.text = AUTH_MANAGER.userName
         tableView?.estimatedRowHeight = 80.0
-        tableView?.rowHeight = UITableViewAutomaticDimension
+        tableView?.rowHeight = UITableView.automaticDimension
     }
     
     //MARK: - Actions

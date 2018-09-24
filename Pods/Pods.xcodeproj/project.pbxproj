@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -61,7 +61,6 @@
 		C9A5818FAF6A0CD78893B3D20B58244F /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F00855ED7F93402714C324E06B75147 /* XLPagerTabStrip-dummy.m */; };
 		CB59654E677B4D9F6E1B2485DBCF1771 /* UIViewController+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702026877BF08AE2A790A172127A4EEA /* UIViewController+Draw.swift */; };
 		CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90868F1CD4BE81C231D762E6A2EE390B /* Response.swift */; };
-		CF53FBFC7323CB069FC43E80C12BAD6A /* Info.plist in Sources */ = {isa = PBXBuildFile; fileRef = C6537C059D8315F82D75E0E7D8C00C9D /* Info.plist */; };
 		D08EF8A31D8B8530386082B32CCBAA78 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D361510FA090ADA1776AF37B6969E9 /* IndicatorInfo.swift */; };
 		DB86235F6C9B39F77924B39CCF6D8166 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAE3B149460398C927E473867671132 /* SwiftyJSON.swift */; };
 		E645669484E8797885A74A99A5462960 /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04879156E8E4C5E63B001082A261FF2 /* TwitterPagerTabStripViewController.swift */; };
@@ -122,7 +121,7 @@
 /* Begin PBXFileReference section */
 		0271AE69425F2C9F2BCA50A0BB78D624 /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
 		02E9614DDB3B4463BD85165724D966AB /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		06F915F591B1D398F5006E151D55BB0D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F915F591B1D398F5006E151D55BB0D /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		075FFFE91D29BF159AFBDE0159801596 /* SliderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderManager.swift; path = MMDrawController/Classes/SliderManager.swift; sourceTree = "<group>"; };
 		08BCD99EFF52DD8DF8ABCBB4DE551571 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		093E002F89FEDDC4157C3E5F2E3FA71B /* FormToolbar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FormToolbar.h; path = FormToolbar/FormToolbar.h; sourceTree = "<group>"; };
@@ -140,7 +139,7 @@
 		2682DEE23EDFB21777347CAC2B0FDC6E /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
 		2CBF0B4580DFBFADF313BA1981E002A5 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		2EB84BAEB29D0B71EE3CA3A53DB56C70 /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		3162711AA0194F6B67BECBE781A8C964 /* FormToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FormToolbar.framework; path = FormToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3162711AA0194F6B67BECBE781A8C964 /* FormToolbar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FormToolbar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		323048E7C629BF05F7EF80119645C00E /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
 		33B55F0BDF435181DC0A47A5F3DEB38C /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		347787D9D7EBB80A5D16ECE91248E131 /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
@@ -148,20 +147,20 @@
 		3E1039AE418C2972970B8ED8A7EC37CB /* Pods-BalinaSoft-TestApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BalinaSoft-TestApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		43F7ADCA52DCF9E02D757B4F5028911E /* SessionManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionManager.swift; path = Source/SessionManager.swift; sourceTree = "<group>"; };
 		4869E7E6DDE8CB1F281E88E23CF0F720 /* Pods-BalinaSoft-TestApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BalinaSoft-TestApp-acknowledgements.markdown"; sourceTree = "<group>"; };
-		495F3371C602E40BBF267D7DA1AA11A2 /* Pods_BalinaSoft_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BalinaSoft_TestApp.framework; path = "Pods-BalinaSoft-TestApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		495F3371C602E40BBF267D7DA1AA11A2 /* Pods_BalinaSoft_TestApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BalinaSoft_TestApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A12021F246F0AE666A33AFF8CFF2D1 /* FormToolbar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FormToolbar-prefix.pch"; sourceTree = "<group>"; };
 		5972980763FE1378EA3DD887FC4A0AF4 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
 		60B4913155DFB49705F3EE8B189E9EC3 /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
 		62A2494A657EF002D77111E86717470D /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
 		649D444218A75AF360CBFCD65E14E03D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		66516C8DEBA6C272240FB860F28DAE79 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6737305536D0BE4D55920A2522F4BBB9 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66516C8DEBA6C272240FB860F28DAE79 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6737305536D0BE4D55920A2522F4BBB9 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		681A5CB17DD9C7DCD7FADF2FA4AAAB11 /* ResourceBundle-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
 		6B028B0696E775C41591CF42AB0D7844 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		6D3BEE8C072C4999E7DDCBF662591251 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
 		702026877BF08AE2A790A172127A4EEA /* UIViewController+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Draw.swift"; path = "MMDrawController/Classes/UIViewController+Draw.swift"; sourceTree = "<group>"; };
 		72C3E297D25C45AB594CEDD25BF23E35 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		743D8EE42C690F7591FFDBCF7855E814 /* MMDrawController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MMDrawController.framework; path = MMDrawController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		743D8EE42C690F7591FFDBCF7855E814 /* MMDrawController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MMDrawController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		746C4F1BCDB41418A856966AA6E39A95 /* Pods-BalinaSoft-TestApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BalinaSoft-TestApp-frameworks.sh"; sourceTree = "<group>"; };
 		7530F6ACBB9B9252AA057C0E7DD31F81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		788E0E27FDC2BFDB3A490FBE19CCC0D3 /* CGPoint+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGPoint+Draw.swift"; path = "MMDrawController/Classes/CGPoint+Draw.swift"; sourceTree = "<group>"; };
@@ -175,14 +174,14 @@
 		8D0F9935B2CBFAD39FF59BB51D040D8D /* MMDrawController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MMDrawController-dummy.m"; sourceTree = "<group>"; };
 		8D93A006575D05A8BF4F1A0A453B4729 /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
 		90868F1CD4BE81C231D762E6A2EE390B /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93D361510FA090ADA1776AF37B6969E9 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
 		965F392414EBB29F72920E09A2022286 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
 		9B8E9CBF6303B39EE1704CF0D6E9415B /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		9F1ABE2AC66AB8B2B6525BF5AE0D58BE /* MMDrawerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MMDrawerViewController.swift; path = MMDrawController/Classes/MMDrawerViewController.swift; sourceTree = "<group>"; };
 		A39266E74A6B14285C2DC1E25C75F73E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		A4B3CA2336C190A61DA2E7EF2C2E6C02 /* Pods-BalinaSoft-TestApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BalinaSoft-TestApp-dummy.m"; sourceTree = "<group>"; };
-		A5B7131FF7E02762A64925BEA33C3C98 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = "XLPagerTabStrip-XLPagerTabStrip.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5B7131FF7E02762A64925BEA33C3C98 /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLPagerTabStrip.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FE9B7463E8609808608D5769A9D2AC /* FormToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormToolbar.swift; path = FormToolbar/FormToolbar.swift; sourceTree = "<group>"; };
 		AA421C6D427E5FE62F844821F2B18FE4 /* Pods-BalinaSoft-TestApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BalinaSoft-TestApp-resources.sh"; sourceTree = "<group>"; };
 		ADE3470FDE2FB2B33AD2BE673C9DB038 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
@@ -195,7 +194,6 @@
 		BE58705DEFBB22CD89A8976BEA30E490 /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
 		BE5B22CFF84F7E206B96049A2601F98B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0F21B89EA2AC5BB2A072D69374CC61F /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		C6537C059D8315F82D75E0E7D8C00C9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = FormToolbar/Info.plist; sourceTree = "<group>"; };
 		CBE8F0AB18D720EA14C6B5FC8ACBBD82 /* FormToolbar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FormToolbar.xcconfig; sourceTree = "<group>"; };
 		CE30F9F07CDF4B033D75C52C6AC6A98E /* Pods-BalinaSoft-TestApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BalinaSoft-TestApp.release.xcconfig"; sourceTree = "<group>"; };
 		CFF197BF988313A4D596B0140E08B539 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
@@ -283,7 +281,6 @@
 				EEAE3B149460398C927E473867671132 /* SwiftyJSON.swift */,
 				310DA889C1A2F1D34A8DC3C1CCA907E6 /* Support Files */,
 			);
-			name = SwiftyJSON;
 			path = SwiftyJSON;
 			sourceTree = "<group>";
 		};
@@ -311,7 +308,6 @@
 				702026877BF08AE2A790A172127A4EEA /* UIViewController+Draw.swift */,
 				DC753131013FBFB3170BB38BF9BE4D8E /* Support Files */,
 			);
-			name = MMDrawController;
 			path = MMDrawController;
 			sourceTree = "<group>";
 		};
@@ -402,11 +398,9 @@
 				1E5CAFB55880D59BCE5EA56194887468 /* FormInput.swift */,
 				093E002F89FEDDC4157C3E5F2E3FA71B /* FormToolbar.h */,
 				A7FE9B7463E8609808608D5769A9D2AC /* FormToolbar.swift */,
-				C6537C059D8315F82D75E0E7D8C00C9D /* Info.plist */,
 				E8751538798616C8EB8D97B5D8CAC8DB /* UIBarButtonItem+Hidden.swift */,
 				511F540382998053E9B0BF926571679D /* Support Files */,
 			);
-			name = FormToolbar;
 			path = FormToolbar;
 			sourceTree = "<group>";
 		};
@@ -432,7 +426,6 @@
 				53D170A1E2D279DE64C8DEA67ABA0AC2 /* Resources */,
 				BE2AADCB3100D65184B1476C2F3FC6CB /* Support Files */,
 			);
-			name = XLPagerTabStrip;
 			path = XLPagerTabStrip;
 			sourceTree = "<group>";
 		};
@@ -458,7 +451,6 @@
 				33B55F0BDF435181DC0A47A5F3DEB38C /* Validation.swift */,
 				955475C017B0066FEAD800D372813858 /* Support Files */,
 			);
-			name = Alamofire;
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
@@ -714,7 +706,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -791,7 +783,6 @@
 				C901222708C6192DFDAE7EBB6421634B /* FormInput.swift in Sources */,
 				A504807E0F4FD3A6952C9A625ABE48FA /* FormToolbar-dummy.m in Sources */,
 				1F0A38A2F69B79D6DF56342B9A1C1780 /* FormToolbar.swift in Sources */,
-				CF53FBFC7323CB069FC43E80C12BAD6A /* Info.plist in Sources */,
 				3D3096AAAD5A3024CC9264B88AC6C4EC /* UIBarButtonItem+Hidden.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1442,6 +1433,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
