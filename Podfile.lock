@@ -13,7 +13,7 @@ DEPENDENCIES:
   - XLPagerTabStrip (~> 8.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Alamofire
     - FormToolbar
     - MMDrawController
@@ -29,4 +29,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 59c578ada5529f6d88986b43cb3f63dd31e2dcb1
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3
